@@ -91,7 +91,7 @@ const Game: React.FC = () => {
   }, [matches, firstTurn]);
 
   return (
-    <div className="game">
+    <main className="game">
       <h1>Game of Matches</h1>
       <div className="checkbox-container">
         <div className="round">
@@ -127,7 +127,7 @@ const Game: React.FC = () => {
       <div>
         <button onClick={reset}>reset</button>
       </div>
-    </div>
+    </main>
   );
 };
 
