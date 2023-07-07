@@ -39,6 +39,10 @@ button::selection {
   gap: 10px;
 }
 
+.game {
+  padding: 10px;
+}
+
 .error {
   color: #d50b16;
 }

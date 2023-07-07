@@ -103,7 +103,7 @@ const Game: React.FC = () => {
           />
           <label htmlFor="checkbox"></label>
         </div>
-        <p>AI first turn</p>
+        <p>AI first move</p>
       </div>
 
       <p>Matches Remaining: {matches}</p>
